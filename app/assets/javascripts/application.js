@@ -14,3 +14,6 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+// The following was added referencing the instruction of https://github.com/twbs/bootstrap-sass
+//= require jquery
+//= require bootstrap-sprockets

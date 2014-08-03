@@ -15,7 +15,7 @@
 #  encoding: utf8
 #  pool: 5
 #  username: root
-#  password: mysql
+#  password: Mysql2
 #  socket: /var/run/mysqld/mysqld.sock
 
 
@@ -25,7 +25,7 @@ development:
   encoding: utf8
   pool: 5
   username: root
-  password: mysql
+  password: Mysql2
   socket: /var/run/mysqld/mysqld.sock
   database: ProjectRed0_5_development
 
@@ -38,7 +38,7 @@ test:
   encoding: utf8
   pool: 5
   username: root
-  password: mysql
+  password: Mysql2
   socket: /var/run/mysqld/mysqld.sock
   database: ProjectRed0_5_test
 
@@ -67,7 +67,7 @@ production:
   encoding: utf8
   pool: 5
   username: root
-  password: mysql
+  password: Mysql2
   socket: /var/run/mysqld/mysqld.sock
   database: ProjectRed0_5_production
   username: ProjectRed0_5

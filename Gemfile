@@ -38,3 +38,22 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+######### Default Above  ##############################
+
+group :test do
+
+  gem 'mocha'
+  gem 'capybara'
+
+end
+
+group :development, :test do
+
+  gem 'factory_girl_rails'
+  gem 'rspec-rails'
+
+end
+
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+

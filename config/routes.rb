@@ -1,4 +1,22 @@
 Rails.application.routes.draw do
+  root :to => 'index#home'
+
+  get 'home'                => 'index#home'
+
+  get 'index/home'
+
+  get 'index/music'
+
+  get 'index/films'
+
+  get 'index/photography'
+
+  get 'index/comics'
+
+  get 'index/illustrations'
+
+  get 'index/modern_arts'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
